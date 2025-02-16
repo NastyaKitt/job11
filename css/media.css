@@ -1,0 +1,515 @@
+@media (max-width:1700px) {
+    .reviews {
+        & .reviewList {
+            & .reviewItem {
+                color: #fff;
+                width: calc(40rem - 2rem);
+            }
+        }
+    }
+    .primers {
+        & .primerList {
+            & .primerItem {
+                color: #5DD0EA;
+                height: calc(30rem - 2rem);
+                width: calc(40rem - 2rem);
+                padding: 1rem;
+                background-color: #fff;
+                box-shadow: -5px 5px 3px -1px rgba(34, 60, 80, 0.2);
+                display: none;
+            }
+        }
+    }
+    
+    body {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1600px) {
+    .primers {
+        & .primerList {
+            width: calc(100% - 16rem);
+            margin-top: 10rem;
+            padding: 0 8rem;
+            display: flex
+    ;
+            justify-content: space-between;
+        }
+    }
+    
+    
+}
+@media (max-width:1542px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width:1352px) {
+    .forma {
+        width: calc(100% - 10rem);
+        padding: 0 5rem;
+    }
+    .primers {
+        & .primerList {
+            width: calc(100% - 10rem);
+            margin-top: 10rem;
+            padding: 0 5rem;
+            display: flex
+;
+            justify-content: space-between;
+        }
+    }
+    .reviews {
+        & .reviewList {
+            width: calc(100vw - 10rem);
+            margin-top: 5rem;
+            padding: 0 5rem;
+            display: flex
+    ;
+            justify-content: space-between;
+        }
+    }
+    
+    .me {
+        width: calc(100% - 10rem);
+        padding: 0px 5rem;
+        text-align: center;
+    }
+    .price1, .price2 {
+        & .priceList {
+            & .priceItem {
+                width: calc(17rem - 2rem);
+                height: calc(30rem - 2rem);
+                padding: 1rem;
+                border: 1px solid #000;
+                background-color: #fff;
+                display: flex
+    ;
+                flex-direction: column;
+                justify-content: space-between;
+                box-shadow: -10px 10px 3px -1px rgba(34, 60, 80, 0.2);
+            }
+        }
+    }
+    
+    .price2 {
+        & .priceList1 {
+            & .priceItem1 {
+                width: calc(17rem - 2rem);
+                height: calc(30rem - 2rem);
+                padding: 1rem;
+                background-color: #5DD0EA;
+                display: flex
+    ;
+                flex-direction: column;
+                justify-content: space-between;
+                box-shadow: -10px 10px 3px -1px rgba(34, 60, 80, 0.2);
+            }
+        }
+    }
+    
+    .forma {
+        & .right {
+            height: 100%;
+            justify-items: center;
+            display: flex
+    ;
+            flex-direction: column;
+            text-align: center;
+            align-items: flex-end;
+            justify-content: center;
+        }
+    }
+                
+}
+@media (max-width:1180px) {
+    .reviews {
+        & .reviewList {
+            & .reviewItem {
+                color: #fff;
+                width: calc(30rem - 2rem);
+                height: 25rem;
+            }
+        }
+    }
+    .primers {
+        & .primerList {
+            & .primerItem {
+                color: #5DD0EA;
+                height: calc(25rem - 2rem);
+                width: calc(30rem - 2rem);
+                padding: 1rem;
+                background-color: #fff;
+                box-shadow: -5px 5px 3px -1px rgba(34, 60, 80, 0.2);
+                display: none;
+            }
+        }
+    }
+    .forma {
+        & .left, & .right {
+            & h1 {
+                font-size: 3rem;
+                color: #5DD0EA;
+            }
+        }
+    }
+    
+    
+}
+@media (max-width:1100px) {
+    html {
+        font-size: 12px;
+    }
+    .miniForm {
+        & form {
+            width: calc(80% - 4rem);
+            padding: 0 2rem;
+            height: 10rem;
+            background-color: #9FFB96;
+            border: 1px solid #000;
+            display: flex
+    ;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .me {
+        & .info {
+            & .right {
+                width: 50%;
+                text-align: left;
+                color: #fff;
+            }
+        }
+    }
+    
+    
+    
+}
+@media (max-width:940px) {
+    .price1, .price2 {
+        & .priceList {
+            margin-top: 2rem;
+            & .priceItem {
+                width: calc(20rem - 2rem);
+                height: calc(30rem - 2rem);
+                padding: 1rem;
+                margin-right: 5rem;
+                border: 1px solid #000;
+                background-color: #fff;
+                display: flex;
+                margin-bottom: 7rem;
+                flex-direction: column;
+                justify-content: space-between;
+                box-shadow: -10px 10px 3px -1px rgba(34, 60, 80, 0.2);
+            }
+        }
+    }
+    .price1, .price2 {
+        height: auto;
+        & .priceList {
+            height: 100%;
+            padding: 0 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .price1, .price2 {
+        & .priceList1 {
+            margin-top: 2rem;
+            & .priceItem1 {
+                width: calc(20rem - 2rem);
+                height: calc(30rem - 2rem);
+                padding: 1rem;
+                margin-right: 5rem;
+                margin-bottom: 7rem;
+                justify-content: space-between;
+                box-shadow: -10px 10px 3px -1px rgba(34, 60, 80, 0.2);
+            }
+        }
+    }
+    .price1, .price2 {
+        height: auto;
+        & .priceList1 {
+            height: 100%;
+            padding: 0 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    
+    
+}
+@media (max-width:850px) {
+    .price1, .price2 {
+        & .priceList1 {
+            & .priceItem1 {
+                margin-right: 2rem;
+            }
+        }
+    }
+    .price1, .price2 {
+        & .priceList {
+            & .priceItem {
+                margin-right: 2rem;
+            }
+        }
+    }
+    .reviews {
+        & .reviewList {
+            width: calc(100vw - 10rem);
+            margin-top: 5rem;
+            padding: 0 5rem;
+            display: flex
+;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .reviews {
+        height: auto;
+    }
+    .reviews {
+        & button {
+            margin-bottom: 3rem;
+        }
+    }
+    .reviews {
+        & .reviewList {
+            & .reviewItem {
+                &.active {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+    
+    .primers {
+        height: auto;
+        & .primerList {
+            width: calc(100% - 10rem);
+            margin-top: 2rem;
+            padding: 0 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+
+        }
+    }
+    .primers {
+        & .primerList {
+            & .primerItem {
+                margin-top: 2rem;
+            }
+        }
+    }
+
+
+    
+}
+@media (max-width:780px) {
+    .forma {
+        & .left, & .right {
+            & form {
+                height: calc(80% - 2rem);
+                width: calc(100% - 2rem);
+            }
+        }
+    }
+}
+@media (max-width:730px) {
+    .forma {
+        & .left {
+            width: 30%;
+        }
+    }
+    .miniForm {
+        & form {
+            width: calc(80% - 4rem);
+            padding: 1rem 2rem;
+            height: calc(16rem - 2rem);
+            background-color: #9FFB96;
+            border: 1px solid #000;
+            display: flex
+;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .me {
+        height: auto;
+        & .info {
+            height: calc(100% - 8rem);
+            display: flex
+    ;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 4rem 0;
+            & .right{
+                width: 100%;
+                margin-top: 4rem;
+                & p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+    
+    
+}
+@media (max-width:660px) {
+    .forma {
+        justify-content: center;
+        & .left {
+            display: none;
+        }
+        & .right {
+            width: 100%;
+        }
+    }
+    .heroSection {
+        & .right {
+            display: none;
+        }
+    }
+    .heroSection {
+        & .left, .right {
+            width: 75%;
+        }
+    }
+    footer {
+        & .config1, & .config2 {
+            & button {
+                border: none;
+                background-color: transparent;
+                color: #fff;
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    
+    
+    
+}
+@media (max-width:630px) {
+    html {
+        font-size: 10px;
+    }    
+}
+@media (max-width:520px) {
+    .price1, .price2 {
+        & .priceList {
+            & .priceItem {
+                margin-right: 0rem;
+            }
+        }
+    }
+    .price1, .price2 {
+        & .priceList1 {
+            & .priceItem1 {
+                margin-right: 0rem;
+            }
+        }
+    }
+    .primers {
+        & .primerList {
+            & .primerItem {
+                color: #5DD0EA;
+                height: calc(30rem - 2rem);
+                padding: 1rem;
+                background-color: #fff;
+                box-shadow: -5px 5px 3px -1px rgba(34, 60, 80, 0.2);
+                display: none;
+            }
+        }
+    }
+    footer {
+        & .config1, .config2 {
+            display: flex
+    ;
+            width: calc(100% - 4rem);
+            justify-content: space-between;
+            margin-bottom: 2rem;
+        }
+    }
+    
+    
+}
+@media (max-width:430px) {
+    .price1, .price2 {
+        & .priceList {
+            & .priceItem {
+                width: calc(15rem - 2rem);
+                height: calc(25rem - 2rem);
+            }
+        }
+    }
+    .price1, .price2 {
+        & .priceList1 {
+            & .priceItem1 {
+                width: calc(15rem - 2rem);
+                height: calc(25rem - 2rem);
+            }
+        }
+    }
+    .reviews {
+        & button {
+            width: 25rem;
+            height: 5rem;
+            background-color: #9FFB96;
+            margin-top: 5rem;
+            border: none;
+            box-shadow: -5px 5px 3px -1px rgba(34, 60, 80, 0.2);
+            font-size: 1.5rem;
+        }
+    }
+}
+@media (max-width:380px) {
+    html {
+        font-size: 8px;
+    }    
+    .miniForm {
+        & form {
+            & .ok {
+                & svg {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+    .price1, .price2 {
+        & .priceList1 {
+            & .priceItem1 {
+                width: calc(15rem - 2rem);
+                height: calc(25rem - 2rem);
+                & h3 {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    
+    
+}
+@media (max-width:320px) {
+    html {
+        font-size: 6px;
+    }    
+}
+@media (max-width:660px) {
+    
+}
